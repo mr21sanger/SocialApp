@@ -1,0 +1,119 @@
+@media only screen and (max-width: 600px) {
+  .none {
+    display: none;
+  }
+  .posts {
+    width: 98vw;
+    margin-left: -0.9rem;
+  }
+  .profileImage {
+    width: 3.5em;
+  }
+  .profileImage img {
+    width: 3.3em;
+  }
+  .name {
+    width: 45vw;
+  }
+
+  .filterPost{
+    width: 98vw;
+    margin: 2px 3px;
+    height: 3em;
+  }
+
+  .thought {
+    width: 100vw;
+  }
+  .thought > div {
+    width: 5.3em;
+    height: 5em;
+    background-color: black;
+  }
+  .thought > div img {
+    width: 4.8em;
+    height: 4.8em;
+  }
+
+  .thought button {
+    width: 75vw;
+    font-size: 1rem;
+  }
+
+  .authBlock {
+    width: 100vw;
+  }
+
+  .authContainer {
+    width: 90vw;
+  }
+  .formInput {
+    width: 90%;
+  }
+  .signUp {
+    width: 90vw;
+  }
+
+  .postModal {
+    top: 15em;
+    left: 9em;
+  }
+
+  .createPostImg {
+    width: 3em;
+    height: 3em;
+  }
+
+  .createPostImg img {
+    width: 2.9em;
+    height: 2.9em;
+  }
+  .postModalContainer {
+    height: 70vh;
+    width: 100vw;
+    border: 2px solid black;
+  }
+
+  .profile {
+    width: 100vw;
+  }
+  .profilePost {
+    width: 95vw;
+  }
+  .followerBlock {
+    display: flex;
+    justify-content: center;
+  }
+
+  .notificationPage {
+    width: 100vw;
+    padding: 0.5em;
+  }
+  .markAsReadButton {
+    width: 99%;
+  }
+
+  .notifications {
+    width: 100%;
+  }
+
+  .notificationImage {
+    width: 3.1em;
+    height: 3.1em;
+  }
+  .reactedImg {
+    width: 3em;
+    height: 70%;
+  }
+
+  .filterOptions {
+    padding: 5px 8px;
+    font-weight: 400;
+    gap:1px;
+  }
+
+  .chatPage{
+    width: 100vw;
+    border: none;
+  }
+}
